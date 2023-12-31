@@ -1,0 +1,45 @@
+{
+	"name": "roll-calc",
+	"version": "1.0.0",
+	"description": "Roll (spiral) calculator functions.",
+	"homepage": "https://github.com/coryasilva/roll-calc#readme",
+	"bugs": {
+		"url": "https://github.com/coryasilva/roll-calc/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/coryasilva/roll-calc.git"
+	},
+	"author": {
+		"name": "Cory Silva",
+		"url": "https://corysilva.com"
+	},
+	"keywords": [
+		"roll",
+		"2D",
+		"spiral",
+		"calculator",
+		"length",
+		"diameter",
+		"winding",
+		"inventory"
+	],
+	"engines": {
+		"node": ">=18"
+	},
+	"type": "module",
+	"sideEffects": false,
+	"main": "index.js",
+	"exports": {
+		"types": "./index.d.ts",
+		"default": "./index.js"
+	},
+	"scripts": {
+		"test": "xo && ava && tsc index.d.ts"
+	},
+	"devDependencies": {
+		"ava": "^6.0.1",
+		"typescript": "^5.3.3",
+		"xo": "^0.56.0"
+	}
+}
